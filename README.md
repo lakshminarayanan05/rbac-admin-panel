@@ -45,7 +45,7 @@ PORT=3000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
-DB_NAME=rbac_db
+DB_NAME=admin_panel
 JWT_SECRET=your_secret_key
 ```
 4. **Run the project**
