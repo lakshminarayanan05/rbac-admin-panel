@@ -13,8 +13,8 @@ const Register = () => {
       const response = await registerApi(values);
       const { user, token } = response.data;
 
-      localStorage.setItem('user', JSON.stringify(user));
-      localStorage.setItem('token', token);
+      sessionStorage.setItem('user', JSON.stringify(user));
+      sessionStorage.setItem('token', token);
 
       message.success('Registration successful!');
       navigate('/dashboard');

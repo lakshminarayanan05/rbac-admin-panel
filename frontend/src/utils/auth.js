@@ -1,12 +1,12 @@
 import { jwtDecode } from 'jwt-decode';
 
 export const getToken = () => {
-    return localStorage.getItem('token');
+    return sessionStorage.getItem('token');
 }
 
 
 export const getUser = () => {
-  const user = localStorage.getItem("user");
+  const user = sessionStorage.getItem("user");
   return user ? JSON.parse(user) : null;
 };
 
@@ -23,6 +23,6 @@ export const getUserFromToken = () => {
 };
 
 export const logout = () => {
-    localStorage.removeItem('token');
-    window.location.href = '/login'
+    sessionStorage.removeItem('token');
+    window.location.href = '/'
 }

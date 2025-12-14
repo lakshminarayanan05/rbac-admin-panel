@@ -105,7 +105,7 @@ const Admin = () => {
       render: (_, record) =>{
         if (record.roles && record.roles.length > 0) {
           return record.roles.map(r => r.name).join(', ');
-    }
+        }
       },
       align: 'center'
     },

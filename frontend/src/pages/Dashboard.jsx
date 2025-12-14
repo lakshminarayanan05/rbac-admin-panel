@@ -43,6 +43,10 @@ const UserDashboard = () => {
   );
 
   const columns = [
+    { title: 'S.No', key: 'sno', 
+      render: (_, __, index) => index + 1,
+      align: 'center'
+    },
     { title: 'Name', dataIndex: 'name', align: 'center' },
     { title: 'Email', dataIndex: 'email', align: 'center' },
     {
