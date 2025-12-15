@@ -19,6 +19,12 @@ A secure role-based admin panel built using React, Ant Design, and Node.js. Supp
 - Add, Edit, Delete users
 - Search users in the table
 
+## Demo
+<img width="1920" height="1080" alt="Screenshot 2025-12-15 003016" src="https://github.com/user-attachments/assets/d3505b1f-1b40-4426-979b-f646d6c7b1f0" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-15 003116" src="https://github.com/user-attachments/assets/63086d9a-750d-4591-96bf-51ffc308cc62" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-15 003150" src="https://github.com/user-attachments/assets/59f3ae2f-f14d-40a7-afae-4be622f545f3" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-15 003241" src="https://github.com/user-attachments/assets/bbdbe21e-0d0c-4e67-9145-9a230db7a4f2" />
+
 ## Setup Steps
 
 1. **Clone the repo**
